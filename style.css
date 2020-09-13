@@ -1,0 +1,98 @@
+@font-face {
+    font-family: montserrat;
+    src: url(asset/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: montserrat-thick;
+    src: url(asset/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: montserrat-thin;
+    src: url(asset/Montserrat-Thin.ttf);
+}
+
+
+@font-face {
+    font-family: montserrat-fancy-thick;
+    src: url(asset/Montserrat-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: montserrat-fancy-thin;
+    src: url(asset/Montserrat-ThinItalic.ttf);
+}
+
+body {
+    font-family: montserrat;
+}
+
+/* 
+ul {
+    list-style-type: none;
+    margin: 0;
+    
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    background-color: rgb(77, 77, 77);
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+} */
+
+
+.coolbuttons
+{
+    padding-left: 75px;
+}
+
+button {
+    font-family: montserrat-thick;
+    color: #ffffff;
+    background-color: whitesmoke;
+    border: 0px solid;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height: 100px;
+    width: 225px;
+    font-size:14px;
+    color: #111;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.footer
+{
+    bottom: 0px;
+    font-family: montserrat-thick;
+    color: white;
+    border: 1px solid red;
+
+}
+
+
+
+
+
